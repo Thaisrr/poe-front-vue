@@ -6,6 +6,8 @@ import Watchers from "@/pages/Watchers";
 import Communication from "@/pages/Communication";
 import Library from "@/pages/Library";
 import Formulaires from "@/pages/Formulaires";
+import Composition from "@/pages/CompositionAPI";
+import Requests from "@/pages/Requests";
 
 
 const router = createRouter({
@@ -17,6 +19,8 @@ const router = createRouter({
         {path: '/com', name: 'com', component: Communication},
         {path: '/library', name: 'lib', component: Library},
         {path: '/formulaires', name: 'form', component: Formulaires},
+        {path: '/composition', name: 'compo', component: Composition},
+        {path: '/requests', name: 'req', component: Requests}
     ],
     history: createWebHistory()
 });

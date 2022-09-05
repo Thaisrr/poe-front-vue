@@ -22,6 +22,12 @@
       <li>
         <router-link :to="{name: 'form'}">Formulaires</router-link>
       </li>
+      <li>
+        <router-link :to="{name: 'compo'}">Composition API</router-link>
+      </li>
+      <li>
+        <router-link :to="{name: 'req'}">Requêtes</router-link>
+      </li>
     </ul>
   </nav>
 </template>
